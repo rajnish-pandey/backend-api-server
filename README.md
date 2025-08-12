@@ -40,3 +40,9 @@ GET `/api/posts`
 ### Create Post
 POST `/api/posts` (requires `Authorization: Bearer <token>` header)  
 Body: `{ "title": "My Post", "content": "Post content" }`
+
+### Delete Post
+DELETE `/api/posts/:id` (requires `Authorization: Bearer <token>` header)  
+
+### Like Post
+POST /api/posts/:id/like
