@@ -1,0 +1,40 @@
+[2025-08-12T12:09:56.321Z] Server running on port 3000
+[2025-08-12T12:10:13.926Z] POST /api/signup
+[2025-08-12T12:11:07.480Z] Server running on port 3000
+[2025-08-12T12:11:12.764Z] POST /api/signup
+[2025-08-12T12:11:12.765Z] User registered: john
+[2025-08-12T12:11:19.175Z] POST /api/login
+[2025-08-12T12:11:19.181Z] User logged in: john
+[2025-08-12T12:11:36.902Z] POST /api/posts
+[2025-08-12T12:11:36.906Z] Post created by john: "My first post"
+[2025-08-12T12:11:50.037Z] POST /api/posts/1/like
+[2025-08-12T12:11:50.040Z] Post liked by john (ID: 1)
+[2025-08-12T12:11:56.782Z] DELETE /api/posts/1
+[2025-08-12T12:11:56.784Z] Post deleted by john (ID: 1)
+[2025-08-12T12:12:00.787Z] POST /api/posts
+[2025-08-12T12:12:00.789Z] Post created by john: "My first post"
+[2025-08-12T12:12:03.764Z] POST /api/posts/1/like
+[2025-08-12T12:12:03.766Z] Like failed - Post not found (ID: 1)
+[2025-08-12T12:12:15.878Z] POST /api/posts/2/like
+[2025-08-12T12:12:15.880Z] Post liked by john (ID: 2)
+[2025-08-12T12:12:18.143Z] POST /api/posts/2/like
+[2025-08-12T12:12:18.145Z] Post liked by john (ID: 2)
+[2025-08-12T12:12:28.261Z] GET /api/posts
+[2025-08-12T12:13:25.131Z] POST /api/posts
+[2025-08-12T12:13:25.134Z] Post created by john: "India v England"
+[2025-08-12T12:15:56.741Z] POST /api/posts
+[2025-08-12T12:15:56.743Z] Post created by john: "undefined"
+[2025-08-12T12:16:06.068Z] GET /api/posts
+[2025-08-12T12:16:32.809Z] POST /api/posts
+[2025-08-12T12:16:32.811Z] Post created by john: "undefined"
+[2025-08-12T12:16:44.551Z] POST /api/posts
+[2025-08-12T12:16:44.553Z] Post created by john: "Monsoon updates"
+[2025-08-12T12:16:53.449Z] POST /api/posts
+[2025-08-12T12:16:53.451Z] Post created by john: "Technology"
+[2025-08-12T12:16:56.603Z] GET /api/posts
+[2025-08-12T12:17:05.330Z] DELETE /api/posts/4
+[2025-08-12T12:17:05.332Z] Post deleted by john (ID: 4)
+[2025-08-12T12:17:09.382Z] GET /api/posts
+[2025-08-12T12:17:17.063Z] DELETE /api/posts/5
+[2025-08-12T12:17:17.065Z] Post deleted by john (ID: 5)
+[2025-08-12T12:17:21.111Z] GET /api/posts
